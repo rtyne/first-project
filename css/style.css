@@ -1,0 +1,15 @@
+.jumbotron {background-image: url("../img/leaves.jpg");
+background-size: cover;
+}
+
+body {
+    background-image: url("../img/mountain.jpg");
+    background-color: #3e4c84;
+    text-align: left;
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+	font-style: bold;
+	padding-top: 70px;
+}
+div.caption {font-size: 30px;}
