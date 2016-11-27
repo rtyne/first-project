@@ -10,6 +10,7 @@
 	<link rel="stylesheet"
 	type="text/css"
 	href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
@@ -25,7 +26,7 @@
 					<h1>About Me</h1>
 					<p> Some stuff about me. </p>
 
-					<a href="https://mail.google.com/mail/?view=cm&fs=1&to=rmtyne@gmail.com" class="btn btn-lg btn-danger animated pulse infinite" target="_blank">
+					<a href="https://mail.google.com/mail/?view=cm&fs=1&to=rmtyne@gmail.com" class="btn btn-lg btn-danger animated swing infinite" target="_blank">
 						Hire Me
 					</a>
 					<!-- e.g. could set as link to your CV or email -->
@@ -33,65 +34,57 @@
 			</div>
 		</div>
 		<!--need to close this row so you can start a new one. Container is still open -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-About Me" href="about.html">About Me</a>
-				</div>
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-Contact" href="contact.html">Contact</a>
-				</div>
-				<form class="navbar-form navbar-left" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
-			</nav>
+		<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donate.html">Donate to me</a></li>
+        <li><a href="about.html">About me</a></li> 
+        <li><a href="contact.html">Contact</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
 			<div class="row">
 				<div class="col-md-4">
 					<h2>Academic</h2>
 					<div class="thumbnail">
-						<a href="img/papers.jpg">
-							<img src="img/papers.jpg" alt="papers" height="100%">
+						<a href="academic.html">
+							<img class="row2" src="img/papers.jpg" alt="papers" height="100%">
 						</a>
 						<div class="caption">
-							<p> See my academic record </p>
+							<p> View my academic record here. </p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<h2>Work</h2>
 					<div class="thumbnail">
-						<a href="img/work.jpg">
-							<img src="img/work.jpg" alt="work" height="100%">
+						<a href="work.html">
+							<img class="row2" src="img/work.jpg" alt="work" height="100%">
 						</a>
 						<div class="caption">
-							<p> Read more about my work experience. </p>
+							<p> See my work experience here. </p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<h2>Projects</h2>
 					<div class="thumbnail">
-						<a href="img/project.jpg">
-							<img src="img/project.jpg" alt="project" height="100%">
+						<a href="projects.html">
+							<img class="row2" src="img/project.jpg" alt="project" height="100%">
 						</a>
 						<div class="caption">
-							<p> See some of my projects here </p>
+							<p> See some of my projects here. </p>
 						</div>
 					</div>
 				</div>
@@ -99,17 +92,38 @@
 			<div class="row">
 				<div class="col-md-2 hidden-xs">
 					<h3 >Social Media</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<a href="https://en-gb.facebook.com/" target="_blank"><img src="img/facebooklogo.png" alt="facebook logo" height="90px" width="90px">
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://twitter.com/" target="_blank"><img src="img/twitterlogo.png" alt="twitter logo" height="90px" width="90px">
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<a href="https://linkedin.com/" target="_blank"><img src="img/linkedinlogo.png" alt="linkedin logo" height="90px" width="90px">
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://plus.google.com/" target="_blank"><img src="img/googlelogo.png" alt="google logo" height="90px" width="90px">
+							</a>
+						</div>
+					</div>
+
 				</div>
 				<div class="col-md-10">
-					<h3>My blog</h3>
+					<h3>News</h3>
 					<div class="row">
-						<p> Latest post </p>
+						<p class="newsitem"> 27/11/16 - I completed the CodeAtUni two-day programme <a href="#"> Read more </a></p>
 					</div>
 					<div class="row">
-						<p> Older post </p>
+						<p class="newsitem"> 12/11/16 - Improve your public speaking <a href="#"> Read more </a></p>
 					</div>
 					<div class="row">
-						<p> Even older post </p>
+						<p class="newsitem"> 10/11/16 New website launch - get involved! <a href="#"> Read more </a></p>
 					</div>
 				</div>
 			</div>
